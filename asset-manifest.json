@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-homework-template/static/css/main.464c9e63.css",
+    "main.js": "/react-homework-template/static/js/main.8a101410.js",
+    "static/media/peony.jpeg": "/react-homework-template/static/media/peony.bdbfde216f00ec49afa6.jpeg",
+    "static/media/peony2.jpeg": "/react-homework-template/static/media/peony2.eef9fa373946851c8ccb.jpeg",
+    "index.html": "/react-homework-template/index.html",
+    "main.464c9e63.css.map": "/react-homework-template/static/css/main.464c9e63.css.map",
+    "main.8a101410.js.map": "/react-homework-template/static/js/main.8a101410.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.464c9e63.css",
+    "static/js/main.8a101410.js"
+  ]
+}
