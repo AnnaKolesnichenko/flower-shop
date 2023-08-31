@@ -25,7 +25,7 @@ const DeliveryOptions = () => {
                 <Typography variant='h3' fontSize={34} fontWeight={600} color='white' textAlign='center' paddingTop={1} paddingBottom={2}>Flower Delivery in Kyiv</Typography>
             </Box>
             <Box sx={{borderRadius: '15px', backgroundColor: '#B96A7F', display: 'flex', justifyContent: 'space-between'}}>
-            <FormControl variant="standard" sx={{ m: 1, minWidth: 120, backgroundColor: 'inherit' }}>
+            <FormControl variant="standard" sx={{ m: 1, minWidth: 120, backgroundColor: 'inherit', marginTop: 0 }}>
                 <InputLabel id="demo-simple-select-standard-label" sx={inputLabelStyle}>Price</InputLabel>
                 <Select
                 labelId="demo-simple-select-standard-label"
@@ -40,7 +40,7 @@ const DeliveryOptions = () => {
                 </Select>
                 <CatalogButton onSubmit={handleSubmit}/>                             
             </FormControl>
-            <FormControl variant="standard" sx={{ m: 1, minWidth: 120, backgroundColor: 'inherit' }}>
+            <FormControl variant="standard" sx={{ m: 1, minWidth: 120, backgroundColor: 'inherit', marginTop: 0 }}>
                 <InputLabel id="demo-simple-select-standard-label" sx={inputLabelStyle}>Flowers</InputLabel>
                 <Select
                 labelId="demo-simple-select-standard-label"
@@ -53,7 +53,7 @@ const DeliveryOptions = () => {
                 </Select>
                 <CatalogButton onSubmit={handleSubmit}/>
             </FormControl>
-            <FormControl variant="standard" sx={{ m: 1, minWidth: 120, backgroundColor: 'inherit' }}>
+            <FormControl variant="standard" sx={{ m: 1, minWidth: 120, backgroundColor: 'inherit', marginTop: 0 }}>
                 <InputLabel id="demo-simple-select-standard-label" sx={inputLabelStyle}>To Whom</InputLabel>
                 <Select
                 labelId="demo-simple-select-standard-label"
@@ -67,7 +67,7 @@ const DeliveryOptions = () => {
                 </Select>
                 <CatalogButton onSubmit={handleSubmit}/>
             </FormControl>
-            <FormControl variant="standard" sx={{ m: 1, minWidth: 120, backgroundColor: 'inherit' }}>
+            <FormControl variant="standard" sx={{ m: 1, minWidth: 120, backgroundColor: 'inherit', marginTop: 0 }}>
                 <InputLabel id="demo-simple-select-standard-label" sx={inputLabelStyle}>Occasion</InputLabel>
                 <Select
                 labelId="demo-simple-select-standard-label"
@@ -80,7 +80,7 @@ const DeliveryOptions = () => {
                 </Select>
                 <CatalogButton onSubmit={handleSubmit}/>
             </FormControl>
-            <FormControl variant="standard" sx={{ m: 1, minWidth: 120, backgroundColor: 'inherit' }}>
+            <FormControl variant="standard" sx={{ m: 1, minWidth: 120, backgroundColor: 'inherit' , marginTop: 0}}>
                 <InputLabel id="demo-simple-select-standard-label" sx={inputLabelStyle}>Style</InputLabel>
                 <Select
                 labelId="demo-simple-select-standard-label"

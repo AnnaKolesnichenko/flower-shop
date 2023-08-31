@@ -23,7 +23,7 @@ const Catalog = () => {
                 filter: 'blur(1px)'
             }}>
             </Box>
-            <Box sx={{display: 'flex', flexDirection: 'column',alignContent: 'center', justifyContent: 'center', marginTop: 8, marginX: 'auto', width: '80%', background: '#B96A7F80', opacity: .7, borderRadius: "5px", zIndex: -1}}>
+            <Box sx={{display: 'flex', flexDirection: 'column',alignContent: 'center', justifyContent: 'center', marginTop: 8, marginX: 'auto', width: '90%', background: '#B96A7F80', opacity: .7, borderRadius: "5px", zIndex: -1}}>
                 <DeliveryOptions />
             </Box>
             
