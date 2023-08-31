@@ -22,7 +22,7 @@ const DeliveryOptions = () => {
     return (
         <Box sx={{borderRadius: "15px"}}>
             <Box >
-                <Typography variant='h3' fontSize={34} fontWeight={600} color='white' textAlign='center' paddingTop={1} paddingBottom={3}>Flower Delivery in Kyiv</Typography>
+                <Typography variant='h3' fontSize={34} fontWeight={600} color='white' textAlign='center' paddingTop={1} paddingBottom={2}>Flower Delivery in Kyiv</Typography>
             </Box>
             <Box sx={{borderRadius: '15px', backgroundColor: '#B96A7F', display: 'flex', justifyContent: 'space-between'}}>
             <FormControl variant="standard" sx={{ m: 1, minWidth: 120, backgroundColor: 'inherit' }}>

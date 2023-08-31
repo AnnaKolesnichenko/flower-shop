@@ -5,7 +5,7 @@ const Header = () => {
 
     const textStyle = {
         textDecoration: 'none', 
-        fontSize: '20px', 
+        fontSize: '18px', 
         color: 'white'
     }
     return (
@@ -14,7 +14,7 @@ const Header = () => {
                 <FilterVintageIcon sx={{width: '24px', height: "24px", color: 'white'}}></FilterVintageIcon>
                 <Typography variant='h3' color='#F5EBEB' fontSize={16}>FLOWERSHOP</Typography>
             </Box>
-            <Box sx={{display: 'flex', flexDirection: 'row', gap: 2, position: 'absolute', right: "64px"}}>
+            <Box sx={{display: 'flex', flexDirection: 'row', gap: 4, position: 'absolute', right: "64px"}}>
                 <Link  href=""sx={textStyle}>Main</Link>
                 <Link href="" sx={textStyle}>Catalogue</Link>
                 <Link href="" sx={textStyle}>About Us</Link>

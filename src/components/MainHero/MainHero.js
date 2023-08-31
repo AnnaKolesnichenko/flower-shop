@@ -10,7 +10,7 @@ const mainTitlePink = {fontStyle: 'italic', color: '#a93b59', fontSize: 48, font
 
 const MainHero = () => {
     return (
-        <Box sx={{marginTop: "109px", marginLeft: "64px", marginRight: "64px"}} >
+        <Box sx={{position: 'relative', marginTop: "109px", paddingRight: '24px', paddingLeft: '24px' }} >
             <Typography sx={mainTitlePink}>Amazing</Typography>
             <Box sx={{display: 'flex', alignItems: 'baseline', gap: 2, marginTop: '-15px', marginLeft: 8, marginBottom: -2}}>
                 <Typography sx={{color: '#F5EBEB', fontSize: 86, fontFamily: 'Montserrat'}}>BOUQUETS</Typography>
@@ -20,10 +20,10 @@ const MainHero = () => {
             <Button sx={{marginLeft: 4, width: "487px", backgroundColor: '#a93b59', color: 'white', fontSize: 24, borderRadius: 4}}>Order Flowers</Button>
             <Box component="div" sx={{
                 position: 'absolute',
-                top: 120,
+                top: 0,
                 right: 0,
-                width: "900px",
-                height: "900px",
+                width: "800px",
+                height: "100%",
                 backgroundImage: `url(${image})`,                
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat', 
