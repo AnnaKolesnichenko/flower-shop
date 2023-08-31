@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/flower-shop/static/css/main.464c9e63.css",
-    "main.js": "/flower-shop/static/js/main.235113cf.js",
+    "main.js": "/flower-shop/static/js/main.ce285b4c.js",
     "static/media/peony2.jpeg": "/flower-shop/static/media/peony2.eef9fa373946851c8ccb.jpeg",
+    "static/media/11piggy.jpeg": "/flower-shop/static/media/11piggy.db70f6919491c9aea824.jpeg",
     "static/media/peon2.jpeg": "/flower-shop/static/media/peon2.e260aa4e4e5bc448b2c7.jpeg",
     "index.html": "/flower-shop/index.html",
     "main.464c9e63.css.map": "/flower-shop/static/css/main.464c9e63.css.map",
-    "main.235113cf.js.map": "/flower-shop/static/js/main.235113cf.js.map"
+    "main.ce285b4c.js.map": "/flower-shop/static/js/main.ce285b4c.js.map"
   },
   "entrypoints": [
     "static/css/main.464c9e63.css",
-    "static/js/main.235113cf.js"
+    "static/js/main.ce285b4c.js"
   ]
 }
